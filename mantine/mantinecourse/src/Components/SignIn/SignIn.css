@@ -1,0 +1,108 @@
+.signin-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .signin-left {
+    flex: 1;
+    /* background: url('/path-to-your-image.jpg') no-repeat center center; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .signin-left img {
+    max-width: 80%;
+  }
+  
+  .signin-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .signin-form {
+    width: 350px;
+  }
+  
+  .signin-title {
+    color: #B22222;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    width: 100%;
+  }
+  
+  .remember-forgot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .remember-me {
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    font-size: 14px;
+    color: #B22222;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .signin-button {
+    width: 100%;
+    background-color: #B22222;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #A21D1D;
+  }
+  
+  .signup-container {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: #B22222;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer a {
+    color: #B22222;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

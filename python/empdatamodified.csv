@@ -1,0 +1,9 @@
+,emp_id,fname,lname,desig,dept,salary,bonus
+2,103,Baburao,Apte,Associate,Loan,25000,2500.0
+4,105,Alex,Watt,Associate,Deposit,35000,3500.0
+0,101,Raju,Rastogi,Manager,Loan,37000,3700.0
+8,109,Alex,Watt,Probation,Loan,40000,4000.0
+3,104,Paul,Philip,Accountant,Account,45000,4500.0
+5,106,Rick,Watt,Manager,Account,65000,6500.0
+7,108,John,Paul,Manager,IT,75000,7500.0
+1,102,Sham,Mohan,Cashier,Cash,80000,8000.0

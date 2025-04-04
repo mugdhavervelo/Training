@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25">
+  <g id="Group_53122" data-name="Group 53122" transform="translate(-1615 -25)">
+    <path id="ic_notifications_none_24px" d="M13.026,24.5a2.263,2.263,0,0,0,2.256-2.256H10.769A2.263,2.263,0,0,0,13.026,24.5Zm6.769-6.769V12.09c0-3.464-1.839-6.363-5.077-7.13V4.192a1.692,1.692,0,0,0-3.385,0v.767c-3.227.767-5.077,3.655-5.077,7.13v5.641L4,19.987v1.128H22.051V19.987Zm-2.256,1.128H8.513V12.09c0-2.8,1.7-5.077,4.513-5.077s4.513,2.279,4.513,5.077Z" transform="translate(1611 25.5)" fill="#494849"/>
+    <circle id="Ellipse_579" data-name="Ellipse 579" cx="5" cy="5" r="5" transform="translate(1629 25)" fill="#ea2429"/>
+  </g>
+</svg>
