@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}
+Contact
+{% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid mx-0">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../static/contact.jpg" class="d-block w-100 my-4" alt="Contact banner">
+            </div>
+        </div>
+    </div>
+    <h3 class="text-center">Contact Us</h3>
+</div>
+
+<form class="text-center" style="width: 50%; margin: auto;" method="POST" action="/contact">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+        <div id="nameHelp" class="form-text">We'll never share your name with anyone else.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone number</label>
+        <input type="tel" class="form-control" id="phone" name="phone">
+    </div>
+
+    <div class="mb-3">
+        <label for="desc" class="form-label">Tell us why you want to contact us:</label>
+        <textarea class="form-control" id="desc" name="desc" rows="4" placeholder="Write your message here..."></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock body %}
